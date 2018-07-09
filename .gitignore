@@ -1,0 +1,6 @@
+*.DS_Store
+*.hdf5
+.idea/
+Dataset/
+!Dataset/Sampleinput
+ImageNet2017/train_seen_all.txt

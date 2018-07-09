@@ -4,6 +4,7 @@ import keras.backend as K
 if K.backend() == 'tensorflow':
     import tensorflow as tf
 
+
 class RoiPoolingConv(Layer):
     '''ROI pooling layer for 2D inputs.
     See Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition,

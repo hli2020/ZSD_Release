@@ -1,6 +1,7 @@
 from keras import backend as K
 from keras.engine.topology import Layer
 
+
 class MyLayer(Layer):
     def __init__(self, output_dim, **kwargs):
         self.output_dim = output_dim
@@ -19,4 +20,4 @@ class MyLayer(Layer):
         return K.dot(x, self.kernel)
 
     def compute_output_shape(self, input_shape):
-        return (input_shape[0], input_shape[0],self.output_dim)
+        return (input_shape[0], input_shape[0], self.output_dim)
