@@ -4,3 +4,4 @@
 Dataset/
 !Dataset/Sampleinput
 ImageNet2017/train_seen_all.txt
+*.pyc
